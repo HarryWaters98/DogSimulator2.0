@@ -11,6 +11,7 @@ public class DogCharacterController : MonoBehaviour
     [SerializeField] AudioClip m_audioClip;
     private Animator m_animator;
     private Rigidbody m_rigidbody;
+    
 
     private Quaternion m_rotation;
     private Vector3 m_rotationVelocity;
@@ -34,6 +35,7 @@ public class DogCharacterController : MonoBehaviour
         m_rigidbody = GetComponent<Rigidbody>();
         m_audioSourse = GetComponent<AudioSource>();
         m_rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ;
+        
     }
 
     
