@@ -9148,6 +9148,22 @@ Tree:
   m_GameObject: {fileID: 1689394664}
   m_SpeedTreeWindAsset: {fileID: 0}
   m_TreeData: {fileID: 11486172, guid: f62058cb710fd1745a24102fff0edd46, type: 2}
+--- !u!1 &1691715747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1669794051577110, guid: 4a6f160b94bd2354983157718bd2e183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1364408271}
+--- !u!114 &1691715748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1691715747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96a19dd093790d748a45f82dfb4b6c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1705373305
 GameObject:
   m_ObjectHideFlags: 0
