@@ -9,6 +9,8 @@ public class Scorescript : MonoBehaviour {
 	public static int ScoreValue = 0;
     Text Score;
 
+    public GameObject CompleteLevelUI;
+
     public void Start()
     {
         Score = GetComponent<Text>();
@@ -23,9 +25,11 @@ public class Scorescript : MonoBehaviour {
 
     public void EndGame()
     {
+        bool endgame = false;
+
         if (ScoreValue == 25)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            CompleteLevelUI.SetActive(true);
         }
 
     }

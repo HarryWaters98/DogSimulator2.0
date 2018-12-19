@@ -10,7 +10,7 @@ public class OnTrigger : MonoBehaviour {
     {
         if(other.gameObject.tag == "Player")
         {
-         Scorescript.ScoreValue += 1;
+            Scorescript.ScoreValue = +1;
          Destroy(Bone);
         }
         
